@@ -1668,3 +1668,32 @@ body,
 .thanks-logos .affiliation-divider {
   height: 1.7rem;
 }
+/* Section separator slide */
+.slidev-layout.section-slide {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--deck-teal) !important;
+  padding: 2.5rem 3rem;
+}
+.section-slide .section-eyebrow {
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.55);
+  margin-bottom: 0.6rem;
+}
+.section-slide h1 {
+  color: #ffffff !important;
+  font-size: 2.6rem !important;
+  line-height: 1.15;
+  letter-spacing: -0.04em;
+  margin: 0;
+}
+.section-slide .section-sub {
+  font-size: 0.95rem;
+  color: rgba(255,255,255,0.65);
+  margin-top: 0.8rem;
+  font-weight: 400;
+}
